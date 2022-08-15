@@ -1,3 +1,6 @@
+import 'package:intl/locale.dart';
+
 class TranslationService {
-  bool isUrdu(String locale) => locale == 'ur';
+  String locale = 'en';
+  bool isUrdu() => locale == 'ur';
 }

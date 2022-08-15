@@ -11,11 +11,11 @@ import 'package:base_project/src/repositories/token_repository.dart';
 import 'package:base_project/src/services/navigation_service.dart';
 import 'package:base_project/src/services/translation_srevice.dart';
 import 'package:base_project/src/utils/shared_preferences_util.dart';
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:get_it/get_it.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 final getIt = GetIt.I;
 
@@ -28,41 +28,46 @@ void main() async {
   ]);
   await _initRepos();
   _errorBuilder();
-  await EasyLocalization.ensureInitialized();
-  runApp(EasyLocalization(
-    path: 'assets/translations',
-    supportedLocales: const [
-      Locale('en', 'US'),
-      Locale('ur', 'PK'),
-    ],
-    fallbackLocale: const Locale('en', 'US'),
-    child: MultiBlocProvider(providers: [
-      BlocProvider(
-        create: (context) => AppCubit(),
-      ),
-    ], child: const MyApp()),
-  ));
+  // await EasyLocalization.ensureInitialized();
+  runApp(MultiBlocProvider(providers: [
+    BlocProvider(
+      create: (context) => AppCubit(),
+    ),
+  ], child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
+  MyApp({Key? key}) : super(key: key);
+  Locale? locale;
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Starter Project',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      onGenerateRoute: onGenerateRoute,
-      locale: const Locale('en'),
-      supportedLocales: const [
-        Locale('en'),
-        Locale('ur'),
-      ],
-      navigatorKey: navigationService.navigatorKey,
-      localizationsDelegates: context.localizationDelegates,
+    return BlocConsumer<AppCubit, AppState>(
+      listener: (context, state) {
+        if (state is LanguageState) {
+          locale = state.locale;
+        }
+      },
+      builder: (context, state) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'Starter Project',
+          theme: ThemeData(
+            primarySwatch: Colors.blue,
+          ),
+          onGenerateRoute: onGenerateRoute,
+          locale: locale ?? const Locale('en'),
+          supportedLocales: const [
+            Locale('en', 'US'),
+            Locale('ur', 'PK'),
+          ],
+          navigatorKey: navigationService.navigatorKey,
+          localizationsDelegates: const [
+            GlobalMaterialLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+          ],
+        );
+      },
     );
   }
 }

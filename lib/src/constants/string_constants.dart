@@ -1,12 +1,11 @@
 import 'package:base_project/main.dart';
-
+import 'package:base_project/src/app_cubit/app_cubit.dart';
 import 'package:base_project/src/constants/language_constant/english.dart';
 import 'package:base_project/src/constants/language_constant/urdu.dart';
 import 'package:base_project/src/services/translation_srevice.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 class StringConstants {
-  // static String get appName => _getLang('appName');
+  static String get appName => _getLang('appName');
   static String get loginExpired => _getLang('loginExpired');
   static String get loading => _getLang('loading');
   static String get errorNameShouldContainOnlyAlphabets =>
@@ -30,15 +29,13 @@ class StringConstants {
   static String get errSomethingWentWrong => _getLang('errSomethingWentWrong');
   static String get update => _getLang('update');
   static String get cancel => _getLang('cancel');
-  static String get sampleDate => _getLang('sampleDate');
   static String get confirm => _getLang('confirm');
   static String get mediaSelection => _getLang('mediaSelection');
   static String get gallery => _getLang('gallery');
   static String get camera => _getLang('camera');
 
   static String _getLang(String s) {
-    final key = navigationService.getKey().currentContext!.locale.toString();
-    if (getIt<TranslationService>().isUrdu(key)) {
+    if (getIt<TranslationService>().isUrdu()) {
       return UrduConstant.urduLabels[s] ?? '';
     }
     return EnglishConstant.englishLabels[s] ?? '';

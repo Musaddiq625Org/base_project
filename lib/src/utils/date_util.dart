@@ -111,9 +111,4 @@ class DateUtil {
       return '';
     }
   }
-
-  static String convertAmPmToTwentyFour(String timeSlot) {
-    return DateFormat('HH:mm')
-        .format(DateTime.parse('${StringConstants.sampleDate} $timeSlot'));
-  }
 }
