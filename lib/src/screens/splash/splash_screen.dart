@@ -4,6 +4,7 @@ import 'package:base_project/main.dart';
 import 'package:base_project/src/app_cubit/app_cubit.dart';
 import 'package:base_project/src/constants/string_constants.dart';
 import 'package:base_project/src/services/translation_srevice.dart';
+import 'package:base_project/src/utils/shared_preferences_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -33,6 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
             child: const Text('Urdu'),
             onPressed: () async {
               getIt<TranslationService>().locale = 'ur';
+              getIt<SharedPreferencesUtil>().setString('locale', 'ur');
               context.read<AppCubit>().changeLanguage(const Locale('ur'));
               setState(() {});
             },
@@ -41,6 +43,8 @@ class _SplashScreenState extends State<SplashScreen> {
             child: const Text('English'),
             onPressed: () async {
               getIt<TranslationService>().locale = 'en';
+              getIt<SharedPreferencesUtil>().setString('locale', 'en');
+
               context.read<AppCubit>().changeLanguage(const Locale('en'));
               setState(() {});
             },

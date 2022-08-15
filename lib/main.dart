@@ -39,6 +39,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   MyApp({Key? key}) : super(key: key);
   Locale? locale;
+
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<AppCubit, AppState>(
