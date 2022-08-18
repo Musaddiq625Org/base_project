@@ -19,7 +19,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 
 final getIt = GetIt.I;
 
-//test commit
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   // await Firebase.initializeApp();
@@ -112,5 +111,3 @@ Future<void> _initRepos() async {
       ),
     );
 }
-
-//adil ahmed
