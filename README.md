@@ -16,7 +16,7 @@ Made a template using **BLoC pattern** approach with our project structure
  [3]: https://github.com/ammarayoubi
  [musaddiq]: https://www.linkedin.com/in/musaddiq625
  [adil]: https://www.linkedin.com/in/musaddiq625
- [ammar]: https://www.linkedin.com/in/musaddiq625](https://www.linkedin.com/in/ammar-ayoubi-925119188/)
+ [ammar]: https://www.linkedin.com/in/ammar-ayoubi-925119188
  
 
 ## Output 📦
