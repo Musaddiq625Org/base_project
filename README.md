@@ -2,12 +2,11 @@
 Made a template using **BLoC pattern** approach with our project structure
 
 ## Contributors
+
+ ```sh
  [Musaddiq Ahmed Khan][1] 💻
  [Adil Ahmed][2] 💻
  [Ammar Ayoubi][3] 💻
- 
- ```sh
- mason make bloc_class
 ```
 
  [1]: https://github.com/Musaddiq625
