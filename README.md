@@ -3,9 +3,9 @@ Made a template using **BLoC pattern** approach with our project structure
 
 ## Contributors
 
- 1. [Musaddiq Ahmed Khan][1] 💻
- 2. [Adil Ahmed][2] 💻
- 3. [Ammar Ayoubi][3] 💻
+ 1. [Musaddiq Ahmed Khan][1] 👨‍💻
+ 2. [Adil Ahmed][2] 👨‍💻
+ 3. [Ammar Ayoubi][3] 👨‍💻
 
 
  [1]: https://github.com/Musaddiq625
