@@ -3,9 +3,9 @@ Made a template using **BLoC pattern** approach with our project structure
 
 ## Contributors
 
- 1. [Musaddiq Ahmed Khan][1]   [<img alt="Musaddiq625 | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][linkedin]
- 2. [Adil Ahmed][2] 💻
- 3. [Ammar Ayoubi][3] 💻
+ 1. [Musaddiq Ahmed Khan][1]   [<img alt="Musaddiq625 | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][musaddiq]
+ 2. [Adil Ahmed][2]  [<img alt="AdilAhmed | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][adil]
+ 3. [Ammar Ayoubi][3]  [<img alt="AmmarAyoubi | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][ammar]
 
 
 
@@ -14,7 +14,10 @@ Made a template using **BLoC pattern** approach with our project structure
  [1]: https://github.com/Musaddiq625
  [2]: https://github.com/Adil-Rangila
  [3]: https://github.com/ammarayoubi
- [linkedin]: https://www.linkedin.com/in/musaddiq625
+ [musaddiq]: https://www.linkedin.com/in/musaddiq625
+ [adil]: https://www.linkedin.com/in/musaddiq625
+ [ammar]: https://www.linkedin.com/in/musaddiq625](https://www.linkedin.com/in/ammar-ayoubi-925119188/)
+ 
 
 ## Output 📦
 
