@@ -16,26 +16,36 @@ Made a template using **BLoC pattern** approach with our project structure
  
  
  ## Getting Started 🚀
+ Their are two ways
+ 1. Clone
+ 2. Installation ( Recommended )
+ 
+ 
+ ## Clone 
+
 Clone the the base_project repository 
 ```sh
  git clone https://github.com/Musaddiq625Org/base_project.git
 ```
- ## OR 
+
+ ## Installation 
  
-Ensure you have the mason_cli installed.
+Ensure you have the use_template installed.
 
  ### 🎯 Activate from https://pub.dev
 ```sh
-dart pub global activate mason_cli
+dart pub global activate use_template
 ```
-### 🍺 Or install from https://brew.sh
+Write following command in your prefer terminal
 ```sh
-brew tap felangel/mason
+use_template
 ```
-```sh
-brew install mason
+You are asked for three parameters.
+1. New name: This will be the new name of your application.
+2. Template: Past the following Git URL.
+ ```sh
+ https://github.com/Musaddiq625Org/base_project.git
 ```
-
 
 ## Output Directory Structure 📦
 
