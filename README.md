@@ -25,6 +25,9 @@ Generated folder architecture
 ```
 📂android
 📂assets
+ ┣ 📂icon
+ ┣ 📂images
+ ┣ 📂vactor
 📂ios
 📂lib
  ┣ 📂src
