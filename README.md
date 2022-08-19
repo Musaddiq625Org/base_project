@@ -7,10 +7,6 @@ Made a template using **BLoC pattern** approach with our project structure
  2. [Adil Ahmed][2]  [<img alt="AdilAhmed | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][adil]
  3. [Ammar Ayoubi][3]  [<img alt="AmmarAyoubi | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][ammar]
 
-
-
-
-
  [1]: https://github.com/Musaddiq625
  [2]: https://github.com/Adil-Rangila
  [3]: https://github.com/ammarayoubi
@@ -18,6 +14,28 @@ Made a template using **BLoC pattern** approach with our project structure
  [adil]: https://www.linkedin.com/in/adil-ahmed-566871151
  [ammar]: https://www.linkedin.com/in/ammar-ayoubi-925119188
  
+ 
+ ## Getting Started 🚀
+Clone the the base_project repository 
+```sh
+ git clone https://github.com/Musaddiq625Org/base_project.git
+```
+ ## OR 
+ 
+Ensure you have the mason_cli installed.
+
+ ### 🎯 Activate from https://pub.dev
+```sh
+dart pub global activate mason_cli
+```
+### 🍺 Or install from https://brew.sh
+```sh
+brew tap felangel/mason
+```
+```sh
+brew install mason
+```
+
 
 ## Output Directory Structure 📦
 
