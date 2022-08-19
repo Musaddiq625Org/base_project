@@ -29,8 +29,8 @@ Generated folder architecture
  ┃ ┗ 📜sample_icon.png 
  ┣ 📂images
  ┃ ┗ 📜sample_image.png  
- ┣ 📂vactor
- ┃ ┗ 📜sample_vactor.svg   
+ ┣ 📂vector
+ ┃ ┗ 📜sample_vector.svg   
 📂ios
 📂lib
  ┣ 📂components
@@ -101,7 +101,7 @@ Generated folder architecture
  ┃ ┃ ┗ 📜token_res_wrapper.dart
  ┣ 📜generated_route.dart
  ┣ 📜main.dart
-📂linus
+📂linux
 📂macos
 📂test
 📂web
