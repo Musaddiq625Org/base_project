@@ -23,7 +23,10 @@ Made a template using **BLoC pattern** approach with our project structure
 
 Generated folder architecture
 ```
-📦lib
+📂android
+📂assets
+📂ios
+📂lib
  ┣ 📂src
  ┃ ┣ 📂repositories
  ┃ ┃ ┗ 📜home_repository.dart
@@ -34,7 +37,16 @@ Generated folder architecture
  ┃ ┃ ┃ ┃ ┗ 📜homw_state.dart
  ┃ ┃ ┃ ┗ 📜home_interface.dart
  ┃ ┃ ┃ ┗ 📜homw_screen.dart
- 
+📂linus
+📂macos
+📂test
+📂web
+📂windows
+📜.gitattributes
+📜.gitignore
+📜.metadata
+📜analysis_options.yaml
+📜pubspec.lock
 
 
  ```
