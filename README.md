@@ -3,12 +3,12 @@ Made a template using **BLoC pattern** approach with our project structure
 
 ## Contributors
 
- 1. [Musaddiq Ahmed Khan][1] 💻 
+ 1. [Musaddiq Ahmed Khan][1] 💻 [<img align="left" alt="Musaddiq625 | LinkedIn" width=20px src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][linkedin]
  2. [Adil Ahmed][2] 💻
  3. [Ammar Ayoubi][3] 💻
 
 
-[<img align="left" alt="Musaddiq625 | LinkedIn" width=10px src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][linkedin]
+
 
 
  [1]: https://github.com/Musaddiq625
