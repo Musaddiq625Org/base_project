@@ -46,6 +46,7 @@ You are asked for three parameters.
  ```sh
  https://github.com/Musaddiq625Org/base_project.git
 ```
+3. Directory to install template: Your system absolute local path where you want to save project.
 
 ## Output Directory Structure 📦
 
