@@ -52,7 +52,6 @@ Generated folder architecture
 📜pubspec.lock
 📜pubspec.yaml
 📜README.md
-
  ```
 
  ## License 🍀
