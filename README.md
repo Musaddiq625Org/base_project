@@ -47,6 +47,8 @@ Generated folder architecture
 📜.metadata
 📜analysis_options.yaml
 📜pubspec.lock
+📜pubspec.yaml
+📜README.md
 
 
  ```
