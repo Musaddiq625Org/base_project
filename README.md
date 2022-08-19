@@ -25,23 +25,82 @@ Generated folder architecture
 ```
 📂android
 📂assets
- ┣ 📂icon
+ ┣ 📂app_icon
+ ┃ ┗ 📜sample_icon.png 
  ┣ 📂images
+ ┃ ┗ 📜sample_image.png  
  ┣ 📂vactor
+ ┃ ┗ 📜sample_vactor.svg   
 📂ios
 📂lib
  ┣ 📂components
+ ┃ ┣ 📂media
+ ┃ ┃ ┗ 📜custom_image_preview.dart
+ ┃ ┃ ┗ 📜media_source_selection_widget.dart 
+ ┃ ┣ 📜loading_dialog.dart
+ ┃ ┣ 📜main_scaffold_component.dart 
+ ┃ ┣ 📜text_component.dart
+ ┃ ┣ 📜toast_component.dart  
  ┣ 📂src
+ ┃ ┣ 📂app_cubit
+ ┃ ┃ ┗ 📜app_cubit.dart
+ ┃ ┃ ┗ 📜app_state.dart 
+ ┃ ┣ 📂constants
+ ┃ ┣ ┣ 📂language_constant
+ ┃ ┃ ┃ ┗ 📜english.dart
+ ┃ ┃ ┃ ┗ 📜urdu.dart
+ ┃ ┣ ┣ 📜app_constants.dart 
+ ┃ ┣ ┣ 📜asset_constants.dart
+ ┃ ┣ ┣ 📜color_constants.dart 
+ ┃ ┣ ┣ 📜date_constants.dart 
+ ┃ ┣ ┣ 📜font_styles_constants.dart 
+ ┃ ┣ ┣ 📜http_constants.dart 
+ ┃ ┣ ┣ 📜padding_constants.dart 
+ ┃ ┣ ┣ 📜route_constants.dart 
+ ┃ ┣ ┣ 📜shared_preference_constants.dart 
+ ┃ ┣ ┣ 📜sizedbox_constants.dart 
+ ┃ ┣ ┣ 📜string_constants.dart 
+ ┃ ┣ 📂enums
+ ┃ ┃ ┗ 📜sample_enum.dart
+ ┃ ┣ 📂models
+ ┃ ┃ ┗ 📜sample_model.dart 
+ ┃ ┣ 📂network
+ ┃ ┃ ┗ 📜dio_api_services.dart
+ ┃ ┃ ┗ 📜dio_client_network.dart
  ┃ ┣ 📂repositories
- ┃ ┃ ┗ 📜home_repository.dart
+ ┃ ┃ ┗ 📜token_repository.dart
  ┃ ┣ 📂screens
- ┃ ┣ ┣ 📂home
+ ┃ ┣ ┣ 📂splash
  ┃ ┃ ┣ ┣ 📂cubit
- ┃ ┃ ┃ ┃ ┗ 📜home_cubit.dart
- ┃ ┃ ┃ ┃ ┗ 📜homw_state.dart
- ┃ ┃ ┃ ┗ 📜home_interface.dart
- ┃ ┃ ┃ ┗ 📜homw_screen.dart
- ┣ 📜homw_screen.dart
+ ┃ ┃ ┃ ┃ ┗ 📜splashe_cubit.dart
+ ┃ ┃ ┃ ┃ ┗ 📜splash_state.dart
+ ┃ ┃ ┃ ┗ 📜splash_interface.dart
+ ┃ ┃ ┃ ┗ 📜splash_screen.dart
+ ┃ ┣ 📂screens_args
+ ┃ ┃ ┗ 📜sample_screen_args.dart 
+ ┃ ┣ 📂services
+ ┃ ┃ ┗ 📜navigation_service.dart
+ ┃ ┃ ┗ 📜translation_srevice.dart
+ ┃ ┃ ┗ 📜validation_service.dart
+ ┃ ┣ 📂utils
+ ┃ ┣ ┣ 📂firebase
+ ┃ ┃ ┣ ┣ 📂firebase_wrappers
+ ┃ ┃ ┃ ┃ ┗ 📜android_response_wrapper.dart
+ ┃ ┃ ┃ ┃ ┗ 📜ios_response_wrapper.dart
+ ┃ ┃ ┃ ┗ 📜firebase_util.dart
+ ┃ ┣ ┣ 📜connection_util.dart
+ ┃ ┣ ┣ 📜date_util.dart
+ ┃ ┣ ┣ 📜datetime_picker.dart 
+ ┃ ┣ ┣ 📜device_util.dart 
+ ┃ ┣ ┣ 📜launcher_util.dart 
+ ┃ ┣ ┣ 📜logger_util.dart 
+ ┃ ┣ ┣ 📜navigation_util.dart 
+ ┃ ┣ ┣ 📜share_util.dart 
+ ┃ ┣ ┣ 📜shared_preferences_util.dart 
+ ┃ ┣ 📂wrappers
+ ┃ ┃ ┗ 📜token_res_wrapper.dart
+ ┣ 📜generated_route.dart
+ ┣ 📜main.dart
 📂linus
 📂macos
 📂test
