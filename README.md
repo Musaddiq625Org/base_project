@@ -53,7 +53,6 @@ Generated folder architecture
 📜pubspec.yaml
 📜README.md
 
-
  ```
 
  ## License 🍀
