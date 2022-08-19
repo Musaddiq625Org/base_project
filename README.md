@@ -8,9 +8,13 @@ Made a template using **BLoC pattern** approach with our project structure
  3. [Ammar Ayoubi][3] 💻
 
 
+[<img align="left" alt="Musaddiq625 | LinkedIn" width=30px src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][linkedin]
+
+
  [1]: https://github.com/Musaddiq625
  [2]: https://github.com/Adil-Rangila
  [3]: https://github.com/ammarayoubi
+ [linkedin]: https://www.linkedin.com/in/musaddiq625
 
 ## Output 📦
 
