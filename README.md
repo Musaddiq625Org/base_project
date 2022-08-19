@@ -19,7 +19,7 @@ Made a template using **BLoC pattern** approach with our project structure
  [ammar]: https://www.linkedin.com/in/ammar-ayoubi-925119188
  
 
-## Output 📦
+## Output Directory Structure 📦
 
 Generated folder architecture
 ```
