@@ -24,6 +24,8 @@ Inital flutter project with pre-define packages and **BLoC pattern** approach.
 19. flutter_lints: ^2.0.0
 20. flutter_launcher_icons: ^0.10.0
 21. change_app_package_name: ^1.1.0
+22. flutter_localizations:
+    sdk: flutter
 
 ## Contributors
 
