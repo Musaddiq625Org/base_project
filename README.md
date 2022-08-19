@@ -1,9 +1,33 @@
-# Base Project
-Made a template using **BLoC pattern** approach with our project structure
+# Base Project - BLoC Pattern
+
+Inital flutter project with pre-define packages and **BLoC pattern** approach.
+
+## Packages:
+
+1. cupertino_icons: ^1.0.2
+2. flutter_bloc: ^8.0.1
+3. dio: ^4.0.6
+4. image_picker: ^0.8.5+3
+5. photo_view: ^0.14.0
+6. image_cropper: ^3.0.0
+7. shared_preferences: ^2.0.15
+8. intl: ^0.17.0
+9. get_it: ^7.2.0
+10.fluttertoast: ^8.0.9
+11. flutter_svg: ^1.1.3
+12. flutter_local_notifications: ^9.7.0
+13. cached_network_image: ^3.2.1
+15. google_fonts: ^3.0.1
+16. device_info_plus: ^4.1.0
+17. connectivity_plus: ^2.3.6+1
+18. flutter_image_compress: ^1.1.1
+19. flutter_lints: ^2.0.0
+20. flutter_launcher_icons: ^0.10.0
+21. change_app_package_name: ^1.1.0
 
 ## Contributors
 
- 1. [Musaddiq Ahmed Khan][1]   [<img alt="Musaddiq625 | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][musaddiq]
+ 1. [Musaddiq Ahmed Khan][1] [<img alt="Musaddiq625 | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][musaddiq]
  2. [Adil Ahmed][2]  [<img alt="AdilAhmed | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][adil]
  3. [Ammar Ayoubi][3]  [<img alt="AmmarAyoubi | LinkedIn" width=16 src="https://cdn-icons-png.flaticon.com/512/174/174857.png">][ammar]
 
@@ -13,12 +37,12 @@ Made a template using **BLoC pattern** approach with our project structure
  [musaddiq]: https://www.linkedin.com/in/musaddiq625
  [adil]: https://www.linkedin.com/in/adil-ahmed-566871151
  [ammar]: https://www.linkedin.com/in/ammar-ayoubi-925119188
- 
- 
+
+
  ## Getting Started 🚀
- Their are two ways
+ There are two ways:
  1. Clone
- 2. Installation ( Recommended )
+ 2. Installation (Recommended)
  
  
  ## Clone 
@@ -41,12 +65,12 @@ Write following command in your prefer terminal
 use_template
 ```
 You are asked for three parameters.
-1. New name: This will be the new name of your application.
-2. Template: Past the following Git URL.
+1. **New name:** This will be the new name of your application.
+2. **Template:** Paste the following Git URL.
  ```sh
  https://github.com/Musaddiq625Org/base_project.git
 ```
-3. Directory to install template: Your system absolute local path where you want to save project.
+3. **Directory to install template:** Your system absolute local path where you want to save project or you can leave it empty to install it on the current directory.
 
 ## Output Directory Structure 📦
 
@@ -143,6 +167,10 @@ Generated folder architecture
 📜pubspec.yaml
 📜README.md
  ```
+ 
+ In this template we have some of our widgets which we are using in our live projects.
+ Somehow this code is tested by the developers, if you find any issue or you can optimize it
+ **Feel free to contribute in this project**
 
  ## License 🍀
  MIT License
