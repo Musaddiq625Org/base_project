@@ -30,6 +30,7 @@ Generated folder architecture
  ┣ 📂vactor
 📂ios
 📂lib
+ ┣ 📂components
  ┣ 📂src
  ┃ ┣ 📂repositories
  ┃ ┃ ┗ 📜home_repository.dart
@@ -40,6 +41,7 @@ Generated folder architecture
  ┃ ┃ ┃ ┃ ┗ 📜homw_state.dart
  ┃ ┃ ┃ ┗ 📜home_interface.dart
  ┃ ┃ ┃ ┗ 📜homw_screen.dart
+ ┣ 📜homw_screen.dart
 📂linus
 📂macos
 📂test
