@@ -66,8 +66,10 @@ class _CustomImagePreviewState extends State<CustomImagePreview> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: <Widget>[
               Expanded(
-                child: FlatButton(
-                  color: Colors.red,
+                child: TextButton(
+                  style: TextButton.styleFrom(
+                    backgroundColor: ColorConstants.red,
+                  ),
                   onPressed: widget.onButtonCancel,
                   child: Text(
                     StringConstants.cancel,
@@ -84,7 +86,6 @@ class _CustomImagePreviewState extends State<CustomImagePreview> {
               Expanded(
                   child: TextButton(
                       style: TextButton.styleFrom(
-                        primary: ColorConstants.logoBlue,
                         backgroundColor: ColorConstants.logoGreen,
                       ),
                       onPressed: () {
