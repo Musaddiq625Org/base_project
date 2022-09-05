@@ -5,8 +5,6 @@ import 'package:base_project/src/constants/color_constants.dart';
 import 'package:base_project/src/constants/font_styles_constants.dart';
 import 'package:base_project/src/constants/route_constants.dart';
 import 'package:base_project/components/text_component.dart';
-import 'package:base_project/src/network/dio_api_services.dart';
-import 'package:base_project/src/network/dio_client_network.dart';
 import 'package:base_project/src/repositories/token_repository.dart';
 import 'package:base_project/src/services/navigation_service.dart';
 import 'package:base_project/src/services/translation_srevice.dart';
@@ -98,17 +96,7 @@ Future<void> _initRepos() async {
   navigationService = NavigationService();
   getIt
     ..registerSingleton(SharedPreferencesUtil())
-    ..registerSingleton(DioClientNetwork())
     ..registerSingleton(TokenRepository())
-    ..registerSingleton(TranslationService())
-    ..registerSingleton(
-      DioApiServices(
-        onAPIErrorDetection: () async {
-          await navigationService.navigateTo(
-            RouteConstants.loginSelectionScreen,
-          );
-        },
-      ),
-    );
+    ..registerSingleton(TranslationService());
 }
 //adil testing the project

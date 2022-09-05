@@ -1,7 +1,6 @@
 import 'package:base_project/main.dart';
 import 'package:base_project/src/constants/http_constants.dart';
 import 'package:base_project/src/constants/shared_preference_constants.dart';
-import 'package:base_project/src/network/dio_api_services.dart';
 import 'package:base_project/src/utils/logger_util.dart';
 import 'package:base_project/src/utils/shared_preferences_util.dart';
 import 'package:base_project/src/wrappers/token_res_wrapper.dart';
@@ -23,11 +22,12 @@ class TokenRepository {
       'app_version': appVersion,
     });
     LoggerUtil.logs('formData.fields: ${formData.fields}');
-    final response = await getIt<DioApiServices>().postRequest(
-      HttpConstants.token,
-      data: formData,
-    );
-    return TokenResWrapper.fromJson(response);
+    // final response = await getIt<DioApiServices>().postRequest(
+    //   HttpConstants.token,
+    //   data: formData,
+    // );
+    // return TokenResWrapper.fromJson(response);
+    return TokenResWrapper();
   }
 
   Future<String?> get getToken async {
