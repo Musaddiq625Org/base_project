@@ -96,7 +96,17 @@ Future<void> _initRepos() async {
   navigationService = NavigationService();
   getIt
     ..registerSingleton(SharedPreferencesUtil())
+    // ..registerSingleton(DioClientNetwork())
     ..registerSingleton(TokenRepository())
     ..registerSingleton(TranslationService());
+    // ..registerSingleton(
+    //   DioApiServices(
+    //     onAPIErrorDetection: () async {
+    //       await navigationService.navigateTo(
+    //         RouteConstants.loginSelectionScreen,
+    //       );
+    //     },
+    //   ),
+    // );
 }
 //adil testing the project
